@@ -4,9 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vue-hello</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <!--Link del CDN di vue-->
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     </head>
     <body>
+        <!--elemento del DOM sul quale andiamo a lavorare con vue -->
+        <div id="app">
+            <h1>{{ message }}</h1>
+            <!-- forma contratta di v-bind:src="src"-->
+            <img :src alt="">
+        </div>
+
         <script src="./js/app.js"></script>
     </body>
 </html>
